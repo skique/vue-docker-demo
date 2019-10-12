@@ -1,5 +1,4 @@
 FROM node:0.12.7-wheezy
-RUN yum update \    && yum -y install  nginx
 WORKDIR /app
 COPY . /app/
 EXPOSE 80
